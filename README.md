@@ -17,13 +17,14 @@ Built with Python, TensorFlow, and CustomTkinter.
 
 
 ## Project Structure
+```
 skin-cancer-analysis/
 │
 ├── main.py                             # Main application file
 ├── ham10000_cnn_transfer_learning.h5   # Trained AI model
 ├── requirements.txt                    # Required dependencies
 └── README.md
-
+```
 
 ## Prerequisites
 * Python 3.10+
