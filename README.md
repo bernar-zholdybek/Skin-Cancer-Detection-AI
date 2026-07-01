@@ -1,8 +1,8 @@
 # Skin Cancer Analysis Application
 
 A desktop application for skin disease classification using deep learning. Upload an image of a skin lesion and receive an AI-based analysis with the most likely diagnosis and a cancer/non-cancerous risk indication.
-
 Built with Python, TensorFlow, and CustomTkinter.
+
 
 ## SUPPORTED SKIN DISEASE CLASSES
 
@@ -15,16 +15,16 @@ Built with Python, TensorFlow, and CustomTkinter.
 6. Vascular Lesions – Non-cancerous
 
 
-
 ## Project Structure
 ```
 skin-cancer-analysis/
 │
-├── main.py                             # Main application file
-├── ham10000_cnn_transfer_learning.h5   # Trained AI model
-├── requirements.txt                    # Required dependencies
+├── main.py                             # main code
+├── ham10000_cnn_transfer_learning.h5   # trained AI model
+├── requirements.txt                    # required dependencies
 └── README.md
 ```
+
 
 ## Prerequisites
 * Python 3.10+
@@ -40,6 +40,7 @@ pillow
 numpy
 ```
 
+
 ## Setup
 
 ### 1. Clone Repository
@@ -48,11 +49,13 @@ git clone https://github.com/bernar-zholdybek/Skin-Cancer-Analysis.git
 cd Skin-Cancer-Analysis
 ```
 
+
 ### 2. Dependency Installation
 Install all required packages
 ```bash
 pip install -r requirements.txt
 ```
+
 
 ### 3. How to Run
 ```bash
@@ -62,7 +65,6 @@ Then upload a skin lesion image and click Analyze with AI to receive results.
 
 
 ## Tech Stack
-
 
 * **UI:** CustomTkinter
 * **AI Framework:** TensorFlow / Keras
